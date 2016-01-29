@@ -1,0 +1,14 @@
+插入short数据
+UPDATE `keywords_test` SET `short`='1ab2c5' WHERE (`id`='1')
+
+删除字段
+ALTER TABLE `keywords_test` DROP COLUMN short
+
+创建字段
+ALTER TABLE `keywords_test`
+ADD COLUMN `short`  varchar(32) NULL AFTER `keywords`,
+ADD UNIQUE INDEX `short` (`short`) ;
+
+
+建立数据库 amazon_linkurl
+CREATE TABLE `amazon_linkurl` (`id` INT (32) NOT NULL AUTO_INCREMENT,`url` VARCHAR (100) NOT NULL,`keywords` VARCHAR (100) NOT NULL,PRIMARY KEY (`id`)) ENGINE = MyISAM DEFAULT CHARSET = utf8;

@@ -1,0 +1,15 @@
+
+备份数据库
+mysqldump -h127.0.0.1 -uroot -pquanchengxuea1 amazon about > /home/wwwroot/tonyshops.com/aboutback.sql
+
+建立数据库
+mysql -h127.0.0.1 -uroot -pquanchengxuea1 create database amazon
+
+恢复数据库
+mysql -h127.0.0.1 -uroot -pquanchengxuea1 amazon < /home/wwwroot/default/aboutback.sql
+
+1、建立数据库，keywords，amazon_link。 运行文件mysql_creat.php
+2、配置Config.php文件，设置相关数据。
+
+
+http://autosug.ebaystatic.com/autosug?kwd=nike&_jgr=1&sId=900&_ch=0&callback=nil

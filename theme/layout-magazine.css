@@ -1,0 +1,137 @@
+/**
+ * Motive Magazine Layout
+ */
+
+body {
+	font-family: "Source Sans Pro", Arial, sans-serif;
+}
+
+.heading-text, .main-head .centered .date {
+	font-family: "Source Sans Pro", Arial, sans-serif;
+}
+
+.text-font {
+	font-family: "Open Sans", Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 600;
+}
+
+.post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
+	font-family: "Source Sans Pro", Arial, sans-serif;
+	font-weight: 600;
+}
+
+.main-head .title a {
+	font: 900 48px "Roboto", "Arial Black", sans-serif;
+}
+
+.main-head .slogan {
+	font-size: 14px;
+	margin-top: 0;
+	font-family: "Source Sans Pro", Arial, sans-serif;
+}
+
+.top-bar { 
+	background: #f7f7f7; 
+}
+
+
+/* Navigation */
+
+.navigation .mega-menu.links > li > a, .category-ext .heading {
+	font-size: 16px;
+}
+
+.navigation .mobile-menu {
+	font-size: 14px;	
+}
+
+.navigation.alt .menu li > a:after  {
+	margin-top: 16px;
+}
+
+.navigation .menu ul .menu-item-has-children > a:after {
+	margin-top: 0;
+	margin-top: -5px;
+}
+
+/* Homepage Blocks */
+
+.news-bar {
+	text-align: left;
+}
+
+.news-bar .posts-list .post-link {
+	margin-top: 0;
+	display: block;	
+}
+
+/* General Typography Adjustments */
+
+.breadcrumbs, .section-head, .posts-grid time, .posts-list time, .review-meta .number, .tabbed .tabs-list a, 
+.read-more a, .comments-list .post-author, .comment-count, .main-footer .widget-title, .sc-accordion-title a, .sc-toggle-title a, 
+.sc-tabs a, .heading-view-all, .sc-button, .button {
+	font-family: "Source Sans Pro", Arial, sans-serif;
+}
+
+.breadcrumbs, .posts-grid time, .posts-list time, .comment-count, .read-more a {
+	font-size: 11px;
+}
+
+.tabbed .tabs-list a {
+	font-size: 14px;
+}
+	
+.comments-list .post-author, .review-meta .number { 
+	font-size: 12px;
+}
+	
+.main-footer .widget-title {
+	font-size: 15px;
+}
+
+.posts-list .post-link, .posts-grid .post-link, .navigation .mega-menu.links > li > a, .category-ext .heading, .main-slider .meta h3, 
+.slider-split .blocks h3, .gallery-block .post-title, .featured-grid .meta h3, .review-box .heading {
+	font-family: "Source Sans Pro", Arial, serif;
+	font-weight: 600;
+}
+
+.archive-heading, .more-stories .posts-list .post-link, .news-bar .posts-list .post-link,
+.post-header .post-title, .author-info [rel="author"], .comments-list .comment-author {
+	font-weight: 600;
+}
+
+.main-highlights .first-heading.post-link {
+	font-size: 24px;
+}
+
+.main-highlights .post-link, .highlights article h2, .gallery-block .post-title, .related-posts .post-link, 
+.latest-reviews .posts-grid h3, .more-stories .posts-list .post-link, .listing-grid h2, 
+.listing-grid .post-link {
+	font-size: 16px;
+}
+
+.post-content {
+	font-size: 15px;
+}
+
+.featured-grid .small .meta h3 {
+	font-size: 19px;
+}
+
+.main-slider .meta h3, .slider-split .blocks h3 {
+	font-size: 24px;
+	line-height: 1.3;
+	padding: 0;
+}
+
+.slider-split .blocks h3 {
+	font-size: 20px;
+	padding-bottom: 2px;
+}
+
+.comment-form label {
+	font-weight: 600;
+}
